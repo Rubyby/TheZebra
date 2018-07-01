@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 volumes:
   cassandra1:
     driver: local
@@ -21,3 +21,4 @@ services:
       - couchbase
     links:
       - couchbase
+
